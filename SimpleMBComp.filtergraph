@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.56375" y="0.5483870967741935" useARA="0" uiLastX_Normal="430"
+  <FILTER uid="5" x="0.5" y="0.6935483870967742" useARA="0" uiLastX_Normal="430"
           uiLastY_Normal="305" uiopen_Normal="0">
     <PLUGIN name="SimpleMBComp" format="VST3" category="Fx" manufacturer="Alexandre Ferreira"
             version="1.0.0" file="C:\Program Files\Common Files\VST3\SimpleMBComp.vst3\Contents\x86_64-win\SimpleMBComp.vst3"
-            uniqueId="efa4a52e" isInstrument="0" fileTime="196152e5454" infoUpdateTime="1961540acb9"
+            uniqueId="efa4a52e" isInstrument="0" fileTime="196152e5454" infoUpdateTime="196154dcc4a"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e9522499"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -78,6 +78,25 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="6" x="0.50125" y="0.5342741935483871" useARA="0" uiLastX_Normal="370"
+          uiLastY_Normal="216" uiopen_Normal="0">
+    <PLUGIN name="AudioFilePlayer" format="VST3" category="Fx" manufacturer="Matkat Music LLC"
+            version="1.0.0" file="C:\Program Files\Common Files\VST3\AudioFilePlayer.vst3\Contents\x86_64-win\AudioFilePlayer.vst3"
+            uniqueId="79fe81c" isInstrument="0" fileTime="1961547529e" infoUpdateTime="196154dcc4c"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95d02c7"/>
+    <STATE>310.VMjLgzR....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DCM33BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQt7TQLolShUELhsVRxHlXEQTXqc1QW0TUxH1aMYzUPsVLgQWUVkEdQolThEEUYMGNFgDUIcEVoMWLhIVTTk0b3XDRTkzUXk1bFgzcyHUX10zPt3hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
