@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Source"
   ],
-  "SelectedNode": "\\Source",
+  "SelectedNode": "\\Source\\PluginProcessor.cpp",
   "PreviewInSolutionExplorer": false
 }
